@@ -1,0 +1,16 @@
+{
+  "name": "pokerogue-endless-tools",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Tools for PokeRogue Endless runs that work from a session export",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "battle-search": "node scripts/battle-search/run.ts",
+    "decrypt-session": "node scripts/decrypt-session.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "typescript": "^7.0.2"
+  }
+}

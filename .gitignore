@@ -1,0 +1,7 @@
+node_modules/
+# PokeRogue save exports, and the session decrypted from one
+*.prsv
+session.json
+# Battle search output
+battle-search.log
+battle-search.line.json
